@@ -1,31 +1,154 @@
-# 🚀 Required Software and Tools
+# 🚀 MERN Stack Bootcamp – Software Setup Guide
 
-Before starting the **MERN Stack Bootcamp**, students must install and verify the following software on their systems.
+> ## ⚠️ Important
+>
+> Before attending the first bootcamp session, ensure that **all required software is installed and verified** on your computer.
+>
+> Completing this setup in advance will allow you to fully participate in the hands-on coding exercises from Day 1.
 
-## 📥 Mandatory Software
+---
 
-| Software | Purpose | Official Download Link |
-|-----------|----------|----------|
-| Visual Studio Code (VS Code) | Source Code Editor | https://code.visualstudio.com/ |
-| Node.js (LTS Version) | JavaScript Runtime Environment | https://nodejs.org/en/download |
-| Git | Version Control System | https://git-scm.com/downloads |
-| GitHub | Code Hosting and Collaboration Platform | https://github.com/ |
-| MongoDB Community Server | NoSQL Database | https://www.mongodb.com/try/download/community |
-| MongoDB Compass | MongoDB GUI Tool | https://www.mongodb.com/products/tools/compass |
-| Postman | API Development and Testing Tool | https://www.postman.com/downloads/ |
-| Google Chrome | Web Browser for Development and Testing | https://www.google.com/chrome/ |
+# 📦 Required Software and Tools
+
+The following software is **mandatory** for all participants.
+
+## 1️⃣ Visual Studio Code (VS Code)
+
+**Purpose:** Source Code Editor
+
+🔗 Download: https://code.visualstudio.com/
+
+---
+
+## 2️⃣ Node.js (LTS Version)
+
+**Purpose:** JavaScript Runtime Environment
+
+🔗 Download: https://nodejs.org/en/download
+
+---
+
+## 3️⃣ Git
+
+**Purpose:** Version Control System
+
+🔗 Download: https://git-scm.com/downloads
+
+---
+
+## 4️⃣ GitHub Account
+
+**Purpose:** Code Hosting and Collaboration Platform
+
+🔗 Create Account: https://github.com/
+
+---
+
+## 5️⃣ MongoDB Community Server
+
+**Purpose:** NoSQL Database
+
+🔗 Download: https://www.mongodb.com/try/download/community
+
+---
+
+## 6️⃣ MongoDB Compass
+
+**Purpose:** MongoDB GUI Tool
+
+🔗 Download: https://www.mongodb.com/products/tools/compass
+
+---
+
+## 7️⃣ Postman
+
+**Purpose:** API Development and Testing Tool
+
+🔗 Download: https://www.postman.com/downloads/
+
+---
+
+## 8️⃣ Google Chrome
+
+**Purpose:** Web Browser for Development and Testing
+
+🔗 Download: https://www.google.com/chrome/
+
+---
 
 # 🛠️ Additional Recommended Tools
 
-These tools are not mandatory but are highly recommended for improving productivity and development workflow during the bootcamp.
+These tools are optional but strongly recommended for a smoother development experience.
 
-| Software | Purpose | Official Download Link |
-|-----------|----------|----------|
-| GitHub Desktop | Graphical Interface for Git and GitHub | https://desktop.github.com/ |
-| React Developer Tools | Debugging React Applications | https://react.dev/learn/react-developer-tools |
-| Thunder Client | API Testing Inside VS Code | https://www.thunderclient.com/ |
-| ESLint | JavaScript Code Quality and Linting | https://eslint.org/ |
-| Prettier | Automatic Code Formatting | https://prettier.io/ |
-| 7-Zip | File Compression and Extraction Utility | https://www.7-zip.org/ |
+### ✅ GitHub Desktop
+Simplified graphical interface for Git and GitHub.
 
-> **Important:** Ensure all mandatory software is installed and verified before attending Week 1 sessions to avoid setup delays.
+🔗 https://desktop.github.com/
+
+### ✅ React Developer Tools
+Inspect and debug React applications directly in the browser.
+
+🔗 https://react.dev/learn/react-developer-tools
+
+### ✅ Thunder Client
+Lightweight API testing tool inside VS Code.
+
+🔗 https://www.thunderclient.com/
+
+### ✅ ESLint
+Identify and fix JavaScript coding issues.
+
+🔗 https://eslint.org/
+
+### ✅ Prettier
+Automatically formats your code according to industry standards.
+
+🔗 https://prettier.io/
+
+### ✅ 7-Zip
+File compression and extraction utility.
+
+🔗 https://www.7-zip.org/
+
+---
+
+# ✅ Installation Verification
+
+After installation, open a terminal and run:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+Expected Output:
+
+✔ Node.js Version Installed
+
+✔ npm Installed
+
+✔ Git Installed
+
+---
+
+# 🎯 Pre-Bootcamp Checklist
+
+- [ ] VS Code Installed
+- [ ] Node.js Installed
+- [ ] Git Installed
+- [ ] GitHub Account Created
+- [ ] MongoDB Installed
+- [ ] MongoDB Compass Installed
+- [ ] Postman Installed
+- [ ] Google Chrome Installed
+- [ ] Recommended Extensions Installed
+- [ ] Installation Verified Successfully
+
+---
+
+# 🎉 You're Ready!
+
+Once all items above are completed, you are fully prepared to begin the **MERN Stack Bootcamp** and participate in all practical sessions without any setup-related issues.
+
+Happy Coding! 🚀
