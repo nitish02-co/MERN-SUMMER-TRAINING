@@ -1,154 +1,205 @@
-# 🚀 MERN Stack Bootcamp – Software Setup Guide
+<p align="center">
+  <img src="https://img.icons8.com/color/96/000000/mongodb.png" alt="MongoDB" width="80" height="80"/>
+  <img src="https://img.icons8.com/color/96/000000/express-js.png" alt="Express.js" width="80" height="80" style="margin: 0 20px;"/>
+  <img src="https://img.icons8.com/color/96/000000/react-native.png" alt="React" width="80" height="80"/>
+  <img src="https://img.icons8.com/color/96/000000/nodejs.png" alt="Node.js" width="80" height="80"/>
+</p>
 
-> ## ⚠️ Important
+<h1 align="center">🚀 MERN Stack Bootcamp – Software Setup Guide</h1>
+
+<p align="center">
+  <b>Your Journey to Becoming a Full-Stack Developer Starts Here.</b><br>
+  A meticulously crafted, step-by-step guide to configuring your development environment for the MERN stack bootcamp.
+</p>
+
+<p align="center">
+  <a href="#-important-pre-requisite"><img src="https://img.shields.io/badge/Status-Mandatory-FF4B4B?style=for-the-badge&logo=readthedocs" alt="Mandatory"></a>
+  <a href="#-required-software-and-tools"><img src="https://img.shields.io/badge/Tools-9-CB3837?style=for-the-badge&logo=windowsterminal" alt="Core Tools"></a>
+  <a href="#%EF%B8%8F-additional-recommended-tools"><img src="https://img.shields.io/badge/Recommended-7-4C1?style=for-the-badge&logo=highly" alt="Recommended"></a>
+</p>
+
+---
+
+> ## ⚠️ Important Pre-Requisite
 >
-> Before attending the first bootcamp session, ensure that **all required software is installed and verified** on your computer.
+> To ensure we hit the ground running, you **must have all the required software installed and verified** on your computer **before the first session**.
 >
-> Completing this setup in advance will allow you to fully participate in the hands-on coding exercises from Day 1.
+> Completing this setup in advance is critical. It guarantees you can fully engage in the hands-on coding exercises and collaborative projects from Day 1, without technical delays. Please allocate approximately 1–2 hours to complete this entire guide.
 
 ---
 
-# 📦 Required Software and Tools
+## 📖 Table of Contents
 
-The following software is **mandatory** for all participants.
-
-## 1️⃣ Visual Studio Code (VS Code)
-
-**Purpose:** Source Code Editor
-
-🔗 Download: https://code.visualstudio.com/
-
----
-
-## 2️⃣ Node.js (LTS Version)
-
-**Purpose:** JavaScript Runtime Environment
-
-🔗 Download: https://nodejs.org/en/download
+- [📦 Required Software and Tools](#-required-software-and-tools)
+  - [1. Visual Studio Code](#1%EF%B8%8F⃣-visual-studio-code-vs-code)
+  - [2. Node.js & npm](#2%EF%B8%8F⃣-nodejs-lts-version)
+  - [3. Git](#3%EF%B8%8F⃣-git)
+  - [4. GitHub Account](#4%EF%B8%8F⃣-github-account)
+  - [5. MongoDB Community Server](#5%EF%B8%8F⃣-mongodb-community-server)
+  - [6. MongoDB Compass](#6%EF%B8%8F⃣-mongodb-compass)
+  - [7. Postman](#7%EF%B8%8F⃣-postman)
+  - [8. Google Chrome](#8%EF%B8%8F⃣-google-chrome)
+- [🛠️ Additional Recommended Tools](#%EF%B8%8F-additional-recommended-tools)
+- [✅ Installation Verification](#-installation-verification)
+- [🎯 Pre-Bootcamp Checklist](#-pre-bootcamp-checklist)
+- [💡 Troubleshooting & Support](#-troubleshooting--support)
 
 ---
 
-## 3️⃣ Git
+## 📦 Required Software and Tools
 
-**Purpose:** Version Control System
+This is the core toolkit for our bootcamp. Each tool plays a vital role in the modern web development workflow.
 
-🔗 Download: https://git-scm.com/downloads
+### 1️⃣ Visual Studio Code (VS Code)
+<p>
+  <img align="left" src="https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png" alt="VS Code" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> Our primary, lightweight, and highly extensible source code editor.
+</p>
+<br/>
+
+🔗 **Download:** [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+> **🌟 Pro Tip:** Once installed, explore the Extensions Marketplace (Ctrl+Shift+X). A well-configured editor is your best friend!
+
+---
+### 2️⃣ Node.js (LTS Version)
+<p>
+  <img align="left" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> The JavaScript runtime environment that allows us to run JavaScript on the server. Installing Node.js also installs <code>npm</code> (Node Package Manager), which we will use constantly.
+</p>
+<br/>
+
+🔗 **Download:** [https://nodejs.org/en/download](https://nodejs.org/en/download)
+
+> **⚠️ Important:** Always download the **LTS (Long-Term Support)** version for maximum stability and compatibility.
+
+---
+### 3️⃣ Git
+<p>
+  <img align="left" src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> The industry-standard distributed version control system. It's the safety net for our code, enabling collaboration and tracking every change.
+</p>
+<br/>
+
+🔗 **Download:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+---
+### 4️⃣ GitHub Account
+<p>
+  <img align="left" src="https://img.icons8.com/material-outlined/48/000000/github.png" alt="GitHub" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> The world's largest code hosting and collaboration platform. This is where your portfolio will live and where you will submit your bootcamp projects.
+</p>
+<br/>
+
+🔗 **Create Account:** [https://github.com/](https://github.com/)
+
+> **💡 Action Item:** After creating your account, bookmark your profile page. This will become your professional developer resume.
+
+---
+### 5️⃣ MongoDB Community Server
+<p>
+  <img align="left" src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> The "M" in MERN. A powerful NoSQL database that stores data in flexible, JSON-like documents, making it a perfect match for JavaScript development.
+</p>
+<br/>
+
+🔗 **Download:** [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+
+> **🛠️ Installation Guidance:**
+> - **Windows:** It's recommended to install MongoDB as a Windows Service for automatic startup. The installer wizard will guide you through this.
+> - **macOS/Linux:** Follow the platform-specific instructions carefully. On macOS, using `brew` (`brew install mongodb-community`) is a popular and clean method.
+
+---
+### 6️⃣ MongoDB Compass
+<p>
+  <img align="left" src="https://img.icons8.com/color/48/000000/mongodb.png" alt="Compass" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> The official graphical user interface (GUI) for MongoDB. It allows you to visually explore your data, build queries, and run aggregations without writing command-line code.
+</p>
+<br/>
+
+🔗 **Download:** [https://www.mongodb.com/products/tools/compass](https://www.mongodb.com/products/tools/compass)
+
+---
+### 7️⃣ Postman
+<p>
+  <img align="left" src="https://img.icons8.com/dusk/64/000000/postman-api.png" alt="Postman" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> The leading API development and testing tool. We'll use it to design, mock, debug, and test the REST APIs we build with Express.js.
+</p>
+<br/>
+
+🔗 **Download:** [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+
+---
+### 8️⃣ Google Chrome
+<p>
+  <img align="left" src="https://img.icons8.com/color/48/000000/chrome--v1.png" alt="Chrome" width="40" style="margin-right: 15px;"/>
+  <b>Purpose:</b> Our standard web browser for development and testing. Its industry-leading DevTools are indispensable for debugging front-end React code, inspecting network requests, and tuning performance.
+</p>
+<br/>
+
+🔗 **Download:** [https://www.google.com/chrome/](https://www.google.com/chrome/)
 
 ---
 
-## 4️⃣ GitHub Account
+## 🛠️ Additional Recommended Tools
 
-**Purpose:** Code Hosting and Collaboration Platform
+These tools are not required but are the secret weapons of productive developers. They'll make your development experience smoother, faster, and more enjoyable.
 
-🔗 Create Account: https://github.com/
-
----
-
-## 5️⃣ MongoDB Community Server
-
-**Purpose:** NoSQL Database
-
-🔗 Download: https://www.mongodb.com/try/download/community
-
----
-
-## 6️⃣ MongoDB Compass
-
-**Purpose:** MongoDB GUI Tool
-
-🔗 Download: https://www.mongodb.com/products/tools/compass
-
----
-
-## 7️⃣ Postman
-
-**Purpose:** API Development and Testing Tool
-
-🔗 Download: https://www.postman.com/downloads/
-
----
-
-## 8️⃣ Google Chrome
-
-**Purpose:** Web Browser for Development and Testing
-
-🔗 Download: https://www.google.com/chrome/
-
----
-
-# 🛠️ Additional Recommended Tools
-
-These tools are optional but strongly recommended for a smoother development experience.
-
-### ✅ GitHub Desktop
-Simplified graphical interface for Git and GitHub.
-
-🔗 https://desktop.github.com/
-
-### ✅ React Developer Tools
-Inspect and debug React applications directly in the browser.
-
-🔗 https://react.dev/learn/react-developer-tools
-
-### ✅ Thunder Client
-Lightweight API testing tool inside VS Code.
-
-🔗 https://www.thunderclient.com/
-
-### ✅ ESLint
-Identify and fix JavaScript coding issues.
-
-🔗 https://eslint.org/
-
-### ✅ Prettier
-Automatically formats your code according to industry standards.
-
-🔗 https://prettier.io/
-
-### ✅ 7-Zip
-File compression and extraction utility.
-
-🔗 https://www.7-zip.org/
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/48/000000/github-desktop.png" alt="GitHub Desktop" width="50"><br>
+      <b>GitHub Desktop</b><br>
+      <span>A simplified graphical interface for Git. Perfect if you want to visualize branches and commits.</span><br>
+      <a href="https://desktop.github.com/">🔗 Download</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React DevTools" width="50"><br>
+      <b>React Developer Tools</b><br>
+      <span>A Chrome/Firefox extension to inspect and debug your React component tree, props, and state.</span><br>
+      <a href="https://react.dev/learn/react-developer-tools">🔗 Add to Browser</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/ios-filled/50/000000/thunder.png" alt="Thunder Client" width="50"><br>
+      <b>Thunder Client</b><br>
+      <span>A lightweight, fast, and beautiful API client extension built right into VS Code.</span><br>
+      <a href="https://www.thunderclient.com/">🔗 Install Extension</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/48/000000/eslint.png" alt="ESLint" width="50"><br>
+      <b>ESLint</b><br>
+      <span>A static code analysis tool for identifying problematic patterns found in JavaScript code.</span><br>
+      <a href="https://eslint.org/">🔗 Learn More</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/color/48/000000/prettier.png" alt="Prettier" width="50"><br>
+      <b>Prettier</b><br>
+      <span>An opinionated code formatter that enforces a consistent style by parsing your code.</span><br>
+      <a href="https://prettier.io/">🔗 Install Guide</a>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-7-zip-files-and-folders-flaticons-flat-flat-icons-3.png" alt="7-Zip" width="50"><br>
+      <b>7-Zip</b><br>
+      <span>A free and open-source file archiver with a high compression ratio. Handy for unpacking archives.</span><br>
+      <a href="https://www.7-zip.org/">🔗 Download</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-# ✅ Installation Verification
+## ✅ Installation Verification
 
-After installation, open a terminal and run:
+To guarantee everything is wired correctly, open your terminal (Command Prompt, PowerShell, Terminal, or Git Bash) and run the following commands. Each should return a version number, confirming a successful installation.
 
 ```bash
+# Check Node.js version
 node -v
+
+# Check npm version
 npm -v
+
+# Check Git version
 git --version
-```
-
-Expected Output:
-
-✔ Node.js Version Installed
-
-✔ npm Installed
-
-✔ Git Installed
-
----
-
-# 🎯 Pre-Bootcamp Checklist
-
-- [ ] VS Code Installed
-- [ ] Node.js Installed
-- [ ] Git Installed
-- [ ] GitHub Account Created
-- [ ] MongoDB Installed
-- [ ] MongoDB Compass Installed
-- [ ] Postman Installed
-- [ ] Google Chrome Installed
-- [ ] Recommended Extensions Installed
-- [ ] Installation Verified Successfully
-
----
-
-# 🎉 You're Ready!
-
-Once all items above are completed, you are fully prepared to begin the **MERN Stack Bootcamp** and participate in all practical sessions without any setup-related issues.
-
-Happy Coding! 🚀
